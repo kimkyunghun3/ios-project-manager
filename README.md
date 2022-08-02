@@ -12,24 +12,24 @@
 
 | history 내역 | 목록 추가 | 
 |:---:|:---:|
-|<img src = "https://i.imgur.com/QcORGZo.gif" width="500" height="300" >|<img src = "https://i.imgur.com/CLIzu1y.gif" width="500" height="300">|
+|<img src = "https://i.imgur.com/QcORGZo.gif" width="400" height="300" >|<img src = "https://i.imgur.com/CLIzu1y.gif" width="400" height="300">|
 
 | 목록 이동 | 목록 편집 |
 |:---:|:---:|
-|<img src = "https://i.imgur.com/283CtT5.gif" width="500" height="300">|<img src = "https://i.imgur.com/8Y82R1L.gif" width="500" height="300">|
+|<img src = "https://i.imgur.com/283CtT5.gif" width="400" height="300">|<img src = "https://i.imgur.com/8Y82R1L.gif" width="400" height="300">|
 
 | 목록 삭제 | local Notification  | 
 |:---:|:---:|
-|<img src = "https://i.imgur.com/3jdaT0H.gif" width="500" height="300">|<img src = "https://i.imgur.com/ACd8x9K.gif" width="500" height="300">|
+|<img src = "https://i.imgur.com/3jdaT0H.gif" width="400" height="300">|<img src = "https://i.imgur.com/ACd8x9K.gif" width="400" height="300">|
 
 
 | Realm 저장 | 
 |:---:|
-|<img src = "https://i.imgur.com/CA8RWFZ.gif" width="1000" height="300">|
+|<img src = "https://i.imgur.com/CA8RWFZ.gif" width="800" height="300">|
 
 | firebase 동기화 | 
 |:---:|
-|<img src = "https://i.imgur.com/OCghVZQ.gif" width="1000" height="300">|
+|<img src = "https://i.imgur.com/OCghVZQ.gif" width="800" height="300">|
 
 ## 👀 PR
 - [STEP 1](https://github.com/yagom-academy/ios-project-manager/pull/119)
