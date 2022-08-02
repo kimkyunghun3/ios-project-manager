@@ -7,26 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3000D70C287D3E7E00EA7A03 /* UIEdgeInsets+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000D70B287D3E7E00EA7A03 /* UIEdgeInsets+Sugar.swift */; };
+		3000D717287D56B400EA7A03 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000D716287D56B400EA7A03 /* DetailViewModel.swift */; };
+		300D1E4528818AAA0051DBB0 /* TempDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300D1E4428818AAA0051DBB0 /* TempDatabase.swift */; };
+		3043996128810EE800D154C7 /* ColorPalete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3043996028810EE800D154C7 /* ColorPalete.swift */; };
+		306C5A37288AC1E200765DD9 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C5A36288AC1E200765DD9 /* HistoryViewController.swift */; };
+		306C5A39288AC2D000765DD9 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C5A38288AC2D000765DD9 /* HistoryCell.swift */; };
+		306C5A3B288AC30600765DD9 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C5A3A288AC30600765DD9 /* HistoryViewModel.swift */; };
+		306C5A3F288ADE4700765DD9 /* UITableViewCell+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C5A3E288ADE4700765DD9 /* UITableViewCell+Sugar.swift */; };
+		306C5A41288ADE6800765DD9 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C5A40288ADE6800765DD9 /* History.swift */; };
+		306C5A43288ADEC400765DD9 /* HistoryAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C5A42288ADEC400765DD9 /* HistoryAction.swift */; };
+		307DFCDA288059120030873F /* Reactive+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307DFCD9288059120030873F /* Reactive+Sugar.swift */; };
+		3088777C2875CD7800057592 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3088777B2875CD7800057592 /* ListView.swift */; };
+		3088779E2876D0CF00057592 /* TodoListItemStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3088779D2876D0CF00057592 /* TodoListItemStatus.swift */; };
+		308FF0C02878205700301DCF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308FF0BF2878205700301DCF /* DetailViewController.swift */; };
+		30B011F728898CCD001EA123 /* String+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B011F628898CCD001EA123 /* String+Sugar.swift */; };
+		30B02F8C2873E3F40029579F /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B02F8B2873E3F40029579F /* TodoListViewModel.swift */; };
+		30B02F9028747FF40029579F /* TodoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B02F8F28747FF40029579F /* TodoListCell.swift */; };
+		30B2D14428866D1400792807 /* FirebaseDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2D14328866D1400792807 /* FirebaseDatabase.swift */; };
+		30EDE7D12890F2FB00154B19 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EDE7D02890F2FB00154B19 /* NotificationManager.swift */; };
+		30EDE7F02896E5C200154B19 /* UndoRedoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EDE7EF2896E5C200154B19 /* UndoRedoManager.swift */; };
+		30FCF72228854AE2007D9557 /* RealmDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF72128854AE2007D9557 /* RealmDatabase.swift */; };
+		30FCF72428854C5D007D9557 /* TodoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF72328854C5D007D9557 /* TodoDTO.swift */; };
 		643719A22872B0DF00F78AAA /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 643719A12872B0DF00F78AAA /* RxCocoa */; };
 		643719A42872B0DF00F78AAA /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 643719A32872B0DF00F78AAA /* RxRelay */; };
 		643719A62872B0DF00F78AAA /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 643719A52872B0DF00F78AAA /* RxSwift */; };
 		643719D32873CC1500F78AAA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 643719D22873CC1500F78AAA /* RealmSwift */; };
-		643719D62873CD6E00F78AAA /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 643719D52873CD6E00F78AAA /* RxDataSources */; };
 		643719D92873D10A00F78AAA /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 643719D82873D10A00F78AAA /* FirebaseDatabaseSwift */; };
 		643719DB2873D2BB00F78AAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 643719DA2873D2BB00F78AAA /* GoogleService-Info.plist */; };
+		643719E02873E02F00F78AAA /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643719DF2873E02F00F78AAA /* Todo.swift */; };
+		64371A502874940300F78AAA /* StackView+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A4F2874940300F78AAA /* StackView+Sugar.swift */; };
+		64371AC7287B0CFC00F78AAA /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371AC6287B0CFC00F78AAA /* Formatter.swift */; };
+		64371AC9287B129200F78AAA /* Date+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371AC8287B129200F78AAA /* Date+Sugar.swift */; };
+		64371AE9287C570D00F78AAA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371AE8287C570C00F78AAA /* AppCoordinator.swift */; };
+		64371B03287EEB1500F78AAA /* TempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371B02287EEB1500F78AAA /* TempData.swift */; };
+		64B1AAA52889A120009CA506 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1AAA42889A120009CA506 /* DatabaseManager.swift */; };
+		64E7AD38288C0E28008A424B /* Todo+Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7AD37288C0E28008A424B /* Todo+Serializable.swift */; };
 		C7431F0625F51E1D0094C4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7431F0525F51E1D0094C4CF /* AppDelegate.swift */; };
 		C7431F0825F51E1D0094C4CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7431F0725F51E1D0094C4CF /* SceneDelegate.swift */; };
-		C7431F0A25F51E1D0094C4CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7431F0925F51E1D0094C4CF /* ViewController.swift */; };
+		C7431F0A25F51E1D0094C4CF /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7431F0925F51E1D0094C4CF /* TodoListViewController.swift */; };
 		C7431F0F25F51E1E0094C4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7431F0E25F51E1E0094C4CF /* Assets.xcassets */; };
 		C7431F1225F51E1E0094C4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7431F1025F51E1E0094C4CF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		30BAC3FA287C0B620073298F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3000D70B287D3E7E00EA7A03 /* UIEdgeInsets+Sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Sugar.swift"; sourceTree = "<group>"; };
+		3000D716287D56B400EA7A03 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		300D1E4428818AAA0051DBB0 /* TempDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempDatabase.swift; sourceTree = "<group>"; };
+		3043996028810EE800D154C7 /* ColorPalete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalete.swift; sourceTree = "<group>"; };
+		306C5A36288AC1E200765DD9 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		306C5A38288AC2D000765DD9 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		306C5A3A288AC30600765DD9 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		306C5A3E288ADE4700765DD9 /* UITableViewCell+Sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Sugar.swift"; sourceTree = "<group>"; };
+		306C5A40288ADE6800765DD9 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		306C5A42288ADEC400765DD9 /* HistoryAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryAction.swift; sourceTree = "<group>"; };
+		307DFCD9288059120030873F /* Reactive+Sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reactive+Sugar.swift"; sourceTree = "<group>"; };
+		3088777B2875CD7800057592 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		3088779D2876D0CF00057592 /* TodoListItemStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemStatus.swift; sourceTree = "<group>"; };
+		308FF0BF2878205700301DCF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		30B011F628898CCD001EA123 /* String+Sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Sugar.swift"; sourceTree = "<group>"; };
+		30B02F8B2873E3F40029579F /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		30B02F8F28747FF40029579F /* TodoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListCell.swift; sourceTree = "<group>"; };
+		30B2D14328866D1400792807 /* FirebaseDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDatabase.swift; sourceTree = "<group>"; };
+		30EDE7D02890F2FB00154B19 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		30EDE7EF2896E5C200154B19 /* UndoRedoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoRedoManager.swift; sourceTree = "<group>"; };
+		30FCF72128854AE2007D9557 /* RealmDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDatabase.swift; sourceTree = "<group>"; };
+		30FCF72328854C5D007D9557 /* TodoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDTO.swift; sourceTree = "<group>"; };
 		643719DA2873D2BB00F78AAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		643719DF2873E02F00F78AAA /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		64371A4F2874940300F78AAA /* StackView+Sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView+Sugar.swift"; sourceTree = "<group>"; };
+		64371AC6287B0CFC00F78AAA /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		64371AC8287B129200F78AAA /* Date+Sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Sugar.swift"; sourceTree = "<group>"; };
+		64371AE8287C570C00F78AAA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		64371B02287EEB1500F78AAA /* TempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempData.swift; sourceTree = "<group>"; };
+		6458E17D288943DE0077CD07 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		64B1AAA42889A120009CA506 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		64E7AD37288C0E28008A424B /* Todo+Serializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+Serializable.swift"; sourceTree = "<group>"; };
 		C7431F0225F51E1D0094C4CF /* ProjectManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7431F0525F51E1D0094C4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7431F0725F51E1D0094C4CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C7431F0925F51E1D0094C4CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7431F0925F51E1D0094C4CF /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		C7431F0E25F51E1E0094C4CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7431F1125F51E1E0094C4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7431F1325F51E1E0094C4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,7 +114,6 @@
 				643719D32873CC1500F78AAA /* RealmSwift in Frameworks */,
 				643719A62872B0DF00F78AAA /* RxSwift in Frameworks */,
 				643719A42872B0DF00F78AAA /* RxRelay in Frameworks */,
-				643719D62873CD6E00F78AAA /* RxDataSources in Frameworks */,
 				643719A22872B0DF00F78AAA /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +121,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3000D719287D591400EA7A03 /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				64371B02287EEB1500F78AAA /* TempData.swift */,
+				300D1E4428818AAA0051DBB0 /* TempDatabase.swift */,
+				30FCF72128854AE2007D9557 /* RealmDatabase.swift */,
+				30B2D14328866D1400792807 /* FirebaseDatabase.swift */,
+				64B1AAA42889A120009CA506 /* DatabaseManager.swift */,
+				30EDE7EF2896E5C200154B19 /* UndoRedoManager.swift */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
+		306C5A35288AC1CC00765DD9 /* HistoryPopover */ = {
+			isa = PBXGroup;
+			children = (
+				306C5A3D288ADE1300765DD9 /* ViewModel */,
+				306C5A3C288ADE0A00765DD9 /* View */,
+			);
+			path = HistoryPopover;
+			sourceTree = "<group>";
+		};
+		306C5A3C288ADE0A00765DD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				306C5A38288AC2D000765DD9 /* HistoryCell.swift */,
+				306C5A36288AC1E200765DD9 /* HistoryViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		306C5A3D288ADE1300765DD9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				306C5A3A288AC30600765DD9 /* HistoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		307DFCCE288018E60030873F /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				306C5A35288AC1CC00765DD9 /* HistoryPopover */,
+				30B02F8E287464250029579F /* TodoList */,
+				64371A84287847F600F78AAA /* TodoDetail */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		307DFCCF288019280030873F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7431F0925F51E1D0094C4CF /* TodoListViewController.swift */,
+				3088777B2875CD7800057592 /* ListView.swift */,
+				30B02F8F28747FF40029579F /* TodoListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		307DFCD1288019370030873F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30B02F8B2873E3F40029579F /* TodoListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		307DFCD22880195D0030873F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				308FF0BF2878205700301DCF /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		307DFCD3288019620030873F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3000D716287D56B400EA7A03 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		30B02F8E287464250029579F /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				307DFCD1288019370030873F /* ViewModel */,
+				307DFCCF288019280030873F /* View */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		30BAC3F7287C0B620073298F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		643719DC2873D5EB00F78AAA /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,11 +245,67 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		643719E12873E07400F78AAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				643719DF2873E02F00F78AAA /* Todo.swift */,
+				30FCF72328854C5D007D9557 /* TodoDTO.swift */,
+				306C5A40288ADE6800765DD9 /* History.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64371A4E287493A900F78AAA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				64371A4F2874940300F78AAA /* StackView+Sugar.swift */,
+				30B011F628898CCD001EA123 /* String+Sugar.swift */,
+				64371AC8287B129200F78AAA /* Date+Sugar.swift */,
+				3088779D2876D0CF00057592 /* TodoListItemStatus.swift */,
+				64371AC6287B0CFC00F78AAA /* Formatter.swift */,
+				3000D70B287D3E7E00EA7A03 /* UIEdgeInsets+Sugar.swift */,
+				307DFCD9288059120030873F /* Reactive+Sugar.swift */,
+				3043996028810EE800D154C7 /* ColorPalete.swift */,
+				306C5A3E288ADE4700765DD9 /* UITableViewCell+Sugar.swift */,
+				306C5A42288ADEC400765DD9 /* HistoryAction.swift */,
+				64E7AD37288C0E28008A424B /* Todo+Serializable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		64371A84287847F600F78AAA /* TodoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				307DFCD3288019620030873F /* ViewModel */,
+				307DFCD22880195D0030873F /* View */,
+			);
+			path = TodoDetail;
+			sourceTree = "<group>";
+		};
+		64371AE6287C56C500F78AAA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				64371AE8287C570C00F78AAA /* AppCoordinator.swift */,
+				30EDE7D02890F2FB00154B19 /* NotificationManager.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		6458E17F28899A060077CD07 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				6458E17D288943DE0077CD07 /* DatabaseManager.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		C7431EF925F51E1D0094C4CF = {
 			isa = PBXGroup;
 			children = (
 				C7431F0425F51E1D0094C4CF /* ProjectManager */,
 				C7431F0325F51E1D0094C4CF /* Products */,
+				30BAC3F7287C0B620073298F /* Frameworks */,
+				6458E17F28899A060077CD07 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,12 +320,16 @@
 		C7431F0425F51E1D0094C4CF /* ProjectManager */ = {
 			isa = PBXGroup;
 			children = (
+				64371A4E287493A900F78AAA /* Utils */,
 				643719DC2873D5EB00F78AAA /* Application */,
 				643719DD2873D5FC00F78AAA /* Resource */,
 				643719DE2873D61600F78AAA /* SupportingFiles */,
 				643719DA2873D2BB00F78AAA /* GoogleService-Info.plist */,
 				C7431F1325F51E1E0094C4CF /* Info.plist */,
-				C7431F0925F51E1D0094C4CF /* ViewController.swift */,
+				307DFCCE288018E60030873F /* Scene */,
+				64371AE6287C56C500F78AAA /* Coordinator */,
+				643719E12873E07400F78AAA /* Model */,
+				3000D719287D591400EA7A03 /* DataStorage */,
 			);
 			path = ProjectManager;
 			sourceTree = "<group>";
@@ -113,6 +344,7 @@
 				C7431EFE25F51E1D0094C4CF /* Sources */,
 				C7431EFF25F51E1D0094C4CF /* Frameworks */,
 				C7431F0025F51E1D0094C4CF /* Resources */,
+				30BAC3FA287C0B620073298F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,7 +356,6 @@
 				643719A32872B0DF00F78AAA /* RxRelay */,
 				643719A52872B0DF00F78AAA /* RxSwift */,
 				643719D22873CC1500F78AAA /* RealmSwift */,
-				643719D52873CD6E00F78AAA /* RxDataSources */,
 				643719D82873D10A00F78AAA /* FirebaseDatabaseSwift */,
 			);
 			productName = ProjectManager;
@@ -157,7 +388,6 @@
 			packageReferences = (
 				643719A02872B0DF00F78AAA /* XCRemoteSwiftPackageReference "RxSwift" */,
 				643719D12873CC1500F78AAA /* XCRemoteSwiftPackageReference "realm-swift" */,
-				643719D42873CD6E00F78AAA /* XCRemoteSwiftPackageReference "RxDataSources" */,
 				643719D72873D10A00F78AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = C7431F0325F51E1D0094C4CF /* Products */;
@@ -187,9 +417,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7431F0A25F51E1D0094C4CF /* ViewController.swift in Sources */,
+				30FCF72228854AE2007D9557 /* RealmDatabase.swift in Sources */,
+				3000D70C287D3E7E00EA7A03 /* UIEdgeInsets+Sugar.swift in Sources */,
+				30B2D14428866D1400792807 /* FirebaseDatabase.swift in Sources */,
+				64371AC9287B129200F78AAA /* Date+Sugar.swift in Sources */,
+				3043996128810EE800D154C7 /* ColorPalete.swift in Sources */,
+				30B02F8C2873E3F40029579F /* TodoListViewModel.swift in Sources */,
+				30B02F9028747FF40029579F /* TodoListCell.swift in Sources */,
+				64371AC7287B0CFC00F78AAA /* Formatter.swift in Sources */,
+				64B1AAA52889A120009CA506 /* DatabaseManager.swift in Sources */,
+				30B011F728898CCD001EA123 /* String+Sugar.swift in Sources */,
+				3088777C2875CD7800057592 /* ListView.swift in Sources */,
+				C7431F0A25F51E1D0094C4CF /* TodoListViewController.swift in Sources */,
 				C7431F0625F51E1D0094C4CF /* AppDelegate.swift in Sources */,
+				64E7AD38288C0E28008A424B /* Todo+Serializable.swift in Sources */,
+				306C5A43288ADEC400765DD9 /* HistoryAction.swift in Sources */,
+				30EDE7D12890F2FB00154B19 /* NotificationManager.swift in Sources */,
+				306C5A37288AC1E200765DD9 /* HistoryViewController.swift in Sources */,
+				64371B03287EEB1500F78AAA /* TempData.swift in Sources */,
 				C7431F0825F51E1D0094C4CF /* SceneDelegate.swift in Sources */,
+				30EDE7F02896E5C200154B19 /* UndoRedoManager.swift in Sources */,
+				306C5A39288AC2D000765DD9 /* HistoryCell.swift in Sources */,
+				30FCF72428854C5D007D9557 /* TodoDTO.swift in Sources */,
+				64371A502874940300F78AAA /* StackView+Sugar.swift in Sources */,
+				306C5A3B288AC30600765DD9 /* HistoryViewModel.swift in Sources */,
+				306C5A3F288ADE4700765DD9 /* UITableViewCell+Sugar.swift in Sources */,
+				308FF0C02878205700301DCF /* DetailViewController.swift in Sources */,
+				64371AE9287C570D00F78AAA /* AppCoordinator.swift in Sources */,
+				306C5A41288ADE6800765DD9 /* History.swift in Sources */,
+				643719E02873E02F00F78AAA /* Todo.swift in Sources */,
+				3000D717287D56B400EA7A03 /* DetailViewModel.swift in Sources */,
+				3088779E2876D0CF00057592 /* TodoListItemStatus.swift in Sources */,
+				300D1E4528818AAA0051DBB0 /* TempDatabase.swift in Sources */,
+				307DFCDA288059120030873F /* Reactive+Sugar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +589,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTDP4HFM7X;
 				INFOPLIST_FILE = ProjectManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -348,6 +609,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTDP4HFM7X;
 				INFOPLIST_FILE = ProjectManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -401,14 +663,6 @@
 				kind = branch;
 			};
 		};
-		643719D42873CD6E00F78AAA /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
 		643719D72873D10A00F78AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -439,11 +693,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 643719D12873CC1500F78AAA /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
-		};
-		643719D52873CD6E00F78AAA /* RxDataSources */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 643719D42873CD6E00F78AAA /* XCRemoteSwiftPackageReference "RxDataSources" */;
-			productName = RxDataSources;
 		};
 		643719D82873D10A00F78AAA /* FirebaseDatabaseSwift */ = {
 			isa = XCSwiftPackageProductDependency;
